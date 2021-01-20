@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="#FF5722"
+       android:text="Guessing Game"
+       android:gravity="center"
+       android:padding="20dp"
+       >
+   </TextView>
+
+    <EditText
+       android:id="@+id/editTextId"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+        android:hint="Enter the number between 1 and 5"
+        android:inputType="number"
+       android:gravity="center"
+       android:padding="20dp"
+       >
+   </EditText>
+
+    <Button
+        android:id="@+id/checkButtonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Check"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        >
+    </Button>
+
+    <TextView
+        android:id="@+id/resultTextViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:padding="20dp"
+        >
+    </TextView>
+
+</LinearLayout>
