@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".SignUpActivity">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <EditText
+            android:id="@+id/textNameId"
+            android:layout_width="323dp"
+            android:layout_height="44dp"
+            android:hint="Name"
+            android:inputType="text"
+            tools:layout_editor_absoluteX="64dp"
+            tools:layout_editor_absoluteY="153dp" />
+
+        <EditText
+            android:id="@+id/emailId"
+            android:layout_width="323dp"
+            android:layout_height="44dp"
+            android:hint="Email"
+            tools:layout_editor_absoluteX="67dp"
+            tools:layout_editor_absoluteY="235dp" />
+
+        <EditText
+            android:id="@+id/usernameId"
+            android:layout_width="323dp"
+            android:layout_height="44dp"
+            android:hint="Username"
+            android:padding="10dp"
+            tools:layout_editor_absoluteX="70dp"
+            tools:layout_editor_absoluteY="328dp" />
+        <EditText
+            android:id="@+id/passwordID"
+            android:layout_width="323dp"
+            android:layout_height="44dp"
+            android:hint="Password"
+            android:padding="10dp"
+            tools:layout_editor_absoluteX="70dp"
+            tools:layout_editor_absoluteY="328dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/signUpButtonId"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="SIGN UP"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="430dp" />
+</LinearLayout>
